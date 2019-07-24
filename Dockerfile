@@ -5,3 +5,4 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - \
 	&& apt-get update \
 	&& apt-get install -y nodejs \
 	&& rm -rf /var/lib/apt/lists/*
+RUN npm install -g @angular/cli@1.5.6
